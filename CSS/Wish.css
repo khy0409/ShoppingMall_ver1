@@ -1,0 +1,87 @@
+@charset "UTF-8";
+#Wish {
+	padding-top: 3%;
+	display: flex;
+}
+
+#Wish h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 40px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+#Info {
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     box-sizing: border-box;
+     margin-left: 10%;
+     width: 10%;
+}
+
+#Info> div> h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: 500;
+}
+
+#Info> div> nav {
+    display: flex;
+    flex-direction: column;
+}
+
+#Info> div> nav> a {
+	margin-top: 3px;
+}
+
+.info-text strong {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.info-text> .price {
+	margin-left: 5px; 
+}
+
+.Summary {
+	margin-top: 7px;
+}
+
+#Check {
+    width: 50%;
+    margin-left: 5%;
+    margin-bottom: 8%;
+}
+
+.thick {
+    border-top: 2px solid #000;
+    margin-top: 20px;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 6px 0;
+}
+
+.square-image {
+    width: 110px;
+    height: 110px;
+}
+
+#OrderBtn {
+	padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+	background-color: #ccc;
+	color: #4b3621;
+	cursor: pointer;
+	margin-left: 41%;
+	margin-top: 3%;
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	-ms-overflow-style:none; 
+	margin-top: 100px;
+}
+
+body::-webkit-scrollbar {
+	display:none; 
+}
+
+.flex {
+	display: flex;
+}
+
+.NoBr {
+	display: inline-block;
+}
